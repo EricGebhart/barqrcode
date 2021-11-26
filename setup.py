@@ -27,7 +27,6 @@ setup(
     license="MIT",
     entry_points={"console_scripts": ["barqrcode=barqrcode.__main__:main"]},
     install_requires=[
-        "pythondialog",
         "regex",
         "python-barcode",
         "qrcode",
