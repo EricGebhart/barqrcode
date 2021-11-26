@@ -3,7 +3,9 @@ import os
 import barcode
 from barcode.writer import ImageWriter
 import qrcode
-import regex as re
+
+# import regex as re
+import re
 
 # from qrcode.image.pure import PymagingImage
 from PIL import Image, ImageDraw, ImageFont, ImageOps
